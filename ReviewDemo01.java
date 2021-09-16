@@ -12,6 +12,7 @@ public class ReviewDemo01 {
             if (number % k == 0) {
                 isPrime = false;
                 break; //첫번째 약수가 발견되면 for문 탈출
+
             }
             k++;
         }
