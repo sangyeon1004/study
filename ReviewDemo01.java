@@ -1,8 +1,5 @@
-import com.sun.source.util.SourcePositions;
-
-import javax.sql.rowset.serial.SQLOutputImpl;
-import javax.swing.plaf.synth.SynthSpinnerUI;
 import java.util.Scanner;
+
 //06
 public class ReviewDemo01 {
     public static void main(String[] args) {
@@ -16,6 +13,7 @@ public class ReviewDemo01 {
                 isPrime = false;
                 break; //첫번째 약수가 발견되면 for문 탈출
             }
+            String str=null;
             k++;
         }
         System.out.println(number + (isPrime ? "은소수!" : "소수가 아니다"));
