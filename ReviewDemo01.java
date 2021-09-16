@@ -11,6 +11,7 @@ public class ReviewDemo01 {
         for (int k = 1; k <= number; k++){
             if (number % k == 0)
                 cnt++;
+
     }
     if(cnt==2)
         System.out.println(number+"은 소수!");
