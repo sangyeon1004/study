@@ -12,6 +12,7 @@ public class ReviewDemo01 {
             if (number % k == 0)
                 cnt++;
 
+
     }
     if(cnt==2)
         System.out.println(number+"은 소수!");
